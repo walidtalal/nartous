@@ -1,0 +1,23 @@
+{
+  "name": "natrous",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "default": "index.html",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/styles.css -w",
+    "compile:sass": "node-sass sass/main.scss css/styles.css css/styles.comp.css",
+    "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
+    "prefix:css": ""
+  },
+  "author": "Alwaleed",
+  "license": "ISC",
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "node-sass": "^8.0.0",
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "compile-sass": "^2.0.0",
+    "express": "^4.18.2"
+  }
+}
